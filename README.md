@@ -1,6 +1,27 @@
 # Angular Skeleton by Marco Mattes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+
+# About 
+My version of an Angular skeleton.
+
+Was new:
+
+- Jest as test runner
+- Cypress for integration testing (E2E).
+- Deploying stylelint & eslint settings & rules. 
+- CI Mode & Scripts
+- Angular 12
+
+Easy to fork, easy to clone 
+
+# CI
+
+Use `:ci` commands for pipelines
+
+Test: `npm run test:ci`
+E2E: `npm run e2e:ci`
+
+
 
 ## Development server
 
@@ -19,11 +40,11 @@ for a production build.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
